@@ -39,6 +39,13 @@ SESSION_CONFIG_DEFAULTS = dict(
     consumption_time=120,
     doc="")
 
+ROOMS = [
+    dict(
+        name='econ101',
+        display_name='Econ 101 class'
+    )
+]
+
 # ISO-639 code
 # for example: de, fr, ja, ko, zh-hans
 LANGUAGE_CODE = 'en'
